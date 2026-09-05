@@ -28,7 +28,8 @@ Images with low resolution, low quality or not sufficient lighting may affect mo
 
 # Discussion 
 If you have any suggestion i have opened discussion page you can send me your comments i will be glad to read them.
-
+# Hugging Face 
+You can upload your images at hugging face space and see output.
 
                    
 
