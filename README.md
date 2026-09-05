@@ -6,15 +6,21 @@ This model is an accurate model in Persian license plate detection which can be 
 First plates are extracted by yolo-8 and cropped. I trained the model with @iran-license-plate-yolo downloaded from kaggle which contains picture of cards and their plates. The annotation contains plates location in the image from top corner to the bottom. At the end of training this stage we achieved mAP50 of 0.871 and mAP50-95 of 0.581.
 The image below shows how plated are extracted from images:
 ![My Image](1.PNG)
+![My Image](3.PNG)
+![My Image](4.PNG)
+![My Image](5.PNG)
+
+
+
 Than plates are cropped like this:
 ![My Image](2.PNG)
 
 For second network we trained by @iranian-license-plate downloaded from Kaggle. This dataset contains plates with Persian alphabet and their corresponding location on the image. For this we needed a bounding box instead of segmentation because of low need of computational resources and faster inference time.
 For consistent learning we uploaded weights after each epoch to google drive to insure saving weights.
 # Hyperparameters of Detector model
-Total Epoches=25,
-Image Size=640,
-Batch Size=16,
+Total Epoches=25
+Image Size=640
+Batch Size=16
 # Hyperparameters of OCR model
 Total Epoches=25
 Batch Size=32
