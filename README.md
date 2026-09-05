@@ -12,7 +12,7 @@ The image below shows how plated are extracted from images:
 
 
 
-Than plates are cropped like this:
+ Than plates are cropped like this:
 ![My Image](2.PNG)
 
 For second network we trained by @iranian-license-plate downloaded from Kaggle. This dataset contains plates with Persian alphabet and their corresponding location on the image. For this we needed a bounding box instead of segmentation because of low need of computational resources and faster inference time.
